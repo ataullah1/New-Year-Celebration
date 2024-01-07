@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;900&display=swap');
+
+:root {
+  --white: white;
+  --black: black;
+  --gray0: rgba(255, 255, 255, 0.8);
+  --gray01: #070211;
+  --gray02: rgba(7, 2, 17, 0.6);
+  --red: red;
+
+  --font_merriweather: 'Merriweather', serif;
+  --font_inter: 'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body > .container {
+  width: 83%;
+  margin: auto;
+}
+body > .container > header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+body > .container > header > div {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url('../image/bg_img/Banner\ Image.png');
+  background-size: cover;
+}
+body > .container > header > div h4 {
+  color: #fff;
+  text-align: center;
+  width: max-content;
+  margin: 0 auto 15px;
+  font-family: var(--font_merriweather);
+  font-size: 32px;
+  font-weight: 400;
+}
+body > .container > header > div h1 {
+  width: 48%;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--white);
+  font-family: var(--font_merriweather);
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
