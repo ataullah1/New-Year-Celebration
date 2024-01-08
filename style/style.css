@@ -343,15 +343,69 @@ body > .container > main > #section_five > p {
 
 /* Start section five image part ============= */
 
-body > .container > main > #section_five > .s_f_img_part > .red_bg {
+body > .container > main > #section_five > .s_f_img_part {
+  height: 600px;
   width: 100%;
-  height: 229px;
-  border-radius: 16px 0px 16px 16px;
-  background: var(--red);
+  background-image: url('../image/bg_img/Group\ 79\ \(1\).png');
+  margin: 60px 0 100px;
+  border-radius: 16px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
+
+/* Start main section six style =================== */
 
 body > .container > main > #section_six {
+  text-align: center;
+}
+body > .container > main > #section_six > h4 {
+  color: var(--red);
+  font-family: var(--font_inter);
+  font-size: 24px;
+  font-weight: 500;
+}
+body > .container > main > #section_six > h2 {
+  color: var(--gray01);
+  font-family: var(--font_merriweather);
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  padding: 15px 0 22px;
+}
+body > .container > main > #section_six > p {
+  color: var(--gray02);
+  font-family: var(--font_inter);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  width: 68%;
+  margin: auto;
 }
 
+/* section six image part ======== */
+
+body > .container > main > #section_six > div {
+  width: 100%;
+  display: grid;
+  gap: 24px;
+  grid-template: repeat(2, auto) / auto auto auto;
+  margin: 48px 0 120px;
+}
+body > .container > main > #section_six > div > div > img {
+  width: 100%;
+  height: auto;
+}
+
+/* Start main section seven style ================ */
+
+body > .container > main > #section_seven {
+  
+}
+body > .container > main > #section_seven {
+}
+body > .container > main > #section_seven {
+}
+body > .container > main > #section_seven {
+}
 body > .container > main > #section_seven {
 }
