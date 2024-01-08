@@ -310,10 +310,44 @@ body > .container > main > #section_fore > .s_f_right_text > img {
   height: 140px;
 }
 
-body > .container > main > #section_fore {
+/* Start main section five style ============== */
+
+body > .container > main > #section_five > h4 {
+  color: var(--gray01);
+  font-family: var(--font_inter);
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+body > .container > main > #section_five > h1 {
+  color: var(--gray01);
+  font-family: var(--font_merriweather);
+  font-size: 72px;
+  font-weight: 900;
+  text-align: center;
+  padding: 10px 0 28px;
+}
+body > .container > main > #section_five > h1 > span {
+  color: var(--red);
+}
+body > .container > main > #section_five > p {
+  color: var(--gray02);
+  width: 81%;
+  margin: auto;
+  text-align: center;
+  font-family: var(--font_inter);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
 }
 
-body > .container > main > #section_five {
+/* Start section five image part ============= */
+
+body > .container > main > #section_five > .s_f_img_part {
+  background: url('../image/bg_img/red.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 body > .container > main > #section_six {
