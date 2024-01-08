@@ -579,8 +579,13 @@ body > footer > .f_container > .f_top > .f_right > p > i {
   color: var(--red);
 }
 
+body > footer > .f_container > hr {
+  margin: 50px 0;
+  height: 1px;
+  border: none;
+  background: rgba(255, 255, 255, 0.15);
+}
 body > footer > .f_container > .f_meddle {
-  margin: 98px 0;
   text-align: center;
   display: flex;
   justify-content: center;
