@@ -343,11 +343,11 @@ body > .container > main > #section_five > p {
 
 /* Start section five image part ============= */
 
-body > .container > main > #section_five > .s_f_img_part {
-  background: url('../image/bg_img/red.png');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: bottom;
+body > .container > main > #section_five > .s_f_img_part > .red_bg {
+  width: 100%;
+  height: 229px;
+  border-radius: 16px 0px 16px 16px;
+  background: var(--red);
 }
 
 body > .container > main > #section_six {
