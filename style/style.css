@@ -18,9 +18,12 @@
   box-sizing: border-box;
 }
 body > .container {
-  width: 83%;
+  width: 90%;
   margin: auto;
 }
+
+/*  Start header section style============== */
+
 body > .container > header {
   height: 100vh;
   display: flex;
@@ -55,4 +58,266 @@ body > .container > header > div h1 {
   font-size: 72px;
   font-weight: 900;
   line-height: 95px;
+}
+
+/* =========== Start main section style ============= */
+
+/* Start main Section one style =========== */
+
+body > .container > main > #section_one h1 {
+  color: var(--red);
+  text-align: center;
+  font-family: var(--font_inter);
+  font-size: 88px;
+  font-weight: 700;
+  padding-bottom: 48px;
+}
+body > .container > main > #section_one h4 {
+  color: var(--red);
+  text-align: center;
+  font-family: var(--font_inter);
+  font-size: 24px;
+  font-weight: 500;
+}
+body > .container > main > #section_one h2 {
+  color: var(--gray01);
+  text-align: center;
+  font-family: var(--font_inter);
+  font-size: 48px;
+  font-weight: 700;
+  padding: 8px 0 48px;
+}
+body > .container > main > #section_one img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Start main section two style============= */
+
+body > .container > main > #section_two {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  /* background-color: aqua; */
+}
+body > .container > main > #section_two > .section_two_container {
+  height: 600px;
+  width: 100%;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url('../image/bg_img/event.png');
+  background-size: cover;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 126px;
+}
+
+/* Start section two left text style========== */
+
+/* body > .container > main > #section_two > .section_two_container > div {
+  width: 50%;
+  background-color: antiquewhite;
+} */
+body > .container > main > #section_two > .section_two_container > .s_t_text {
+  width: 70%;
+}
+body
+  > .container
+  > main
+  > #section_two
+  > .section_two_container
+  > .s_t_text
+  > h1 {
+  color: var(--white);
+  font-family: var(--font_merriweather);
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+}
+body
+  > .container
+  > main
+  > #section_two
+  > .section_two_container
+  > .s_t_text
+  > p {
+  color: var(--gray0);
+  font-family: var(--font_inter);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  padding: 24px 0 48px;
+}
+body
+  > .container
+  > main
+  > #section_two
+  > .section_two_container
+  > .s_t_text
+  > button {
+  border-radius: 8px;
+  color: var(--white);
+  background: var(--red);
+  padding: 16px 32px;
+  align-items: center;
+  border: 0;
+  font-family: var(--font_inter);
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Start section two right image style================ */
+
+body
+  > .container
+  > main
+  > #section_two
+  > .section_two_container
+  > .s_t_img
+  > img {
+  width: 100%;
+  height: 464.662px;
+}
+
+/* Start section three style============== */
+
+body > .container > main > #section_three {
+  width: 100%;
+  height: 482px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body > .container > main > #section_three > p {
+  color: var(--gray01);
+  font-family: var(--font_inter);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+body > .container > main > #section_three > p > span {
+  color: var(--red);
+}
+body > .container > main > #section_three > button {
+  padding: 16px 32px;
+  border-radius: 8px;
+  background: var(--red);
+  color: var(--white);
+  text-align: center;
+  font-family: var(--font_inter);
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 48px;
+}
+
+/* Start main section fore style=============== */
+
+body > .container > main > #section_fore {
+  width: 100%;
+  height: 463px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0%;
+  margin: 120px 0;
+}
+
+/* body > .container > main > #section_fore > div {
+  background-color: antiquewhite;
+} */
+
+/* Section fore left text style=========== */
+
+body > .container > main > #section_fore > .s_f_left_text {
+  width: 30%;
+}
+body > .container > main > #section_fore > .s_f_left_text > h4 {
+  color: var(--red);
+  font-family: var(--font_inter);
+  font-size: 24px;
+  font-weight: 500;
+}
+body > .container > main > #section_fore > .s_f_left_text > h2 {
+  color: var(--gray01);
+  font-family: var(--font_merriweather);
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  padding: 10px 0 20px;
+}
+body > .container > main > #section_fore > .s_f_left_text > p {
+  color: var(--gray02);
+  font-family: var(--font_inter);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+/* Section fore meddle image style============ */
+body > .container > main > #section_fore > .s_f_meddle_img {
+  width: 35%;
+  text-align: center;
+  width: 463px;
+  height: 463px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body > .container > main > #section_fore > .s_f_meddle_img > img {
+  width: 100%;
+  border-radius: 50%;
+  padding: 30px;
+  border: 15px solid var(--red);
+}
+
+/* Section fore right text style =============== */
+
+body > .container > main > #section_fore > .s_f_right_text {
+  width: 21%;
+}
+body > .container > main > #section_fore > .s_f_right_text > h2 {
+  color: var(--red);
+  font-family: var(--font_inter);
+  font-size: 48px;
+  font-weight: 700;
+}
+body > .container > main > #section_fore > .s_f_right_text > p {
+  color: var(--gray02);
+  font-family: var(--font_inter);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  padding: 10px 0 43px;
+}
+body > .container > main > #section_fore > .s_f_right_text > img {
+  width: 140px;
+  height: 140px;
+}
+
+body > .container > main > #section_fore {
+}
+
+body > .container > main > #section_five {
+}
+
+body > .container > main > #section_six {
+}
+
+body > .container > main > #section_seven {
 }
