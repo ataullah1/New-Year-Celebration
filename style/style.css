@@ -105,7 +105,7 @@ body > .container > main > #section_one h1 {
   font-family: var(--font_inter);
   font-size: 88px;
   font-weight: 700;
-  padding-bottom: 48px;
+  padding: 48px 0;
 }
 body > .container > main > #section_one h4 {
   color: var(--red);
@@ -125,7 +125,7 @@ body > .container > main > #section_one h2 {
 body > .container > main > #section_one img {
   width: 50%;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 50px;
   transition: 0.3s;
 }
 body > .container > main > #section_one img:hover {
