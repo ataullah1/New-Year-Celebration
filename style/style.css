@@ -24,7 +24,7 @@ body > footer > .f_container {
 }
 ::selection {
   background-color: rgb(240, 140, 0);
-  color: white;
+  color:var(--white);
 }
 
 /*  Start header section style============== */
