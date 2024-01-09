@@ -275,7 +275,8 @@ body > .container > main > #section_three > button {
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 body > .container > main > #section_three > button:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
+  background: rgb(122, 4, 4);
 }
 
 /* Start main section fore style=============== */
